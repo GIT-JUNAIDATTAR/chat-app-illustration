@@ -25,9 +25,9 @@ body{
   }
 .mobile{
     position: absolute;
-    height: 29rem;
+    height: 30rem;
     width: 14rem;
-    background-color:rgb(233, 206, 206);
+    background-color:hsl(270, 20%, 96%);
     margin-top: 5rem;
     margin-left: 27rem;
     border-radius: 2rem;
@@ -116,4 +116,97 @@ button{
 
   .div-name-timing{
     margin-right: 3rem;
+  }
+
+  /* chat sec started */
+
+  .right-images{
+    display: flex;
+    margin-left: 35%;
+    gap: 0.3rem;
+    margin-bottom: 0.4rem;
+  }
+  .dog-img{
+    height: 2.5rem;
+    border-radius: 1rem;
+  }
+
+  .left-chat,.right-chat{
+    border-radius: 1rem;
+    font-family: rubic,sans-serif;
+    font-size: 0.7rem;
+    padding: 0.3rem;
+  }
+  .left-chat{
+    background-color:#ede5f3;
+    color: blueviolet;
+    margin-right: 40%;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+  }
+
+  .right-chat{
+    background-color: #ffffff;
+    color: hsl(240, 3%, 57%);
+    margin-left: 40%;
+    margin-bottom: 0.5rem;
+  }
+
+  .left-chat-amount{
+    display: flex;
+    align-items: center;
+    padding: 0.4rem;
+    margin-right: 20%;
+    background-color:#c340ff;
+    border-radius: 0.5rem;
+    border-bottom-left-radius: 0.1rem;
+    margin-bottom: 0.3rem;
+    font-size: 0.7rem;
+    color: white;
+  }
+
+  .bold-amt{
+    font-family:rubic,sans-serif;
+    font-size: 0.8rem;
+    font-weight:800;
+    margin-left: 1.5rem;
+  }
+.amt-extra-margin{
+    margin-left: 2.7rem;
+}
+  .round-left-chat-amt{
+    height: 0.6rem;
+    width: 0.6rem;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 1px dotted white;
+    margin-left: 1rem;
+    margin-right: 0.4rem;
+  }
+
+  input{
+    border: none;
+    padding: 0.2rem;
+    background-color: transparent;
+  }
+  input::placeholder{
+    color: silver;
+  }
+  input:focus{
+    outline: none;
+  }
+.input-and-sendbtn-div{  
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffffff;
+    border-radius: 1rem;
+    margin: 0.2rem;
+    margin-top: 1rem;
+}
+  .button{
+    height: 1.7rem;
+    width: 1.7rem;
+    border-radius: 50%;
+    background-color: hsl(271, 36%, 24%);
+    font-weight: 700;
   }

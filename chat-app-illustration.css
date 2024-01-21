@@ -1,0 +1,119 @@
+/* <style>
+    .attribution { font-size: 11px; text-align: center;}
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style> */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Rubik', sans-serif;
+}
+.left{
+    display:flex;
+    position: relative;
+
+}
+  .purple-section{
+    position: absolute;
+    height: 90vh;
+    width: 30rem;
+    background-color: #b33eff;
+   border-end-end-radius: 15rem;
+   border-end-start-radius:15rem;
+   
+  }
+.mobile{
+    position: absolute;
+    height: 29rem;
+    width: 14rem;
+    background-color:rgb(233, 206, 206);
+    margin-top: 5rem;
+    margin-left: 27rem;
+    border-radius: 2rem;
+    border: 0.7rem solid #ffffff;
+    box-shadow: 7px 5px 10px 3px rgba(0, 0, 0, 0.2);
+    
+}
+
+.camera-div{
+    position: absolute;
+    height: 1.5rem;
+    margin-left: 2.4rem;
+    width: 9rem;
+    border-bottom-left-radius: 5rem;
+    border-bottom-right-radius: 5rem;
+    background-color: #ffffff;;
+}
+.mobile-heading-div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 1rem;
+    height: 4rem;
+    background-color: #b33eff;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 0.6rem;
+    border-bottom-right-radius: 0.6rem;
+}
+
+br{
+    margin: 0;
+    padding: 0;
+}
+
+button{
+    border: none;
+    background: transparent;
+    color: #ffffff;
+}
+
+.mobile-head-bracketopen{
+    color:white;
+    font-weight: 200;
+    font-size: 1rem;
+    margin-left: 1rem;
+    margin-right: 0.6rem;
+}
+
+.profile-photo{
+    height: 1.4rem;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin-right: 0.8rem;
+}
+
+.mobile-head-name-div{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-size: 0.8rem;
+}
+
+.mobile-head-timing{
+    font-size: 0.5rem;
+    color:rgb(222,206,226);
+}
+
+.menu-bar {
+    
+    height: 0.6rem;
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+    margin-right: 0.9rem;
+  }
+
+  .dot {
+    width: 3px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+  }
+
+  .div-name-timing{
+    margin-right: 3rem;
+  }

@@ -23,7 +23,7 @@ body{
 
 .heading-of-para{
     font-size: 2.1rem;
-    font-weight: 900;
+    font-weight: 600;
     margin-bottom: 1.5rem;
     padding-top: 10rem;
     font-family: rubik,sans-serif;
@@ -32,16 +32,16 @@ body{
 
 .paragraph{
     font-family: rubic;
-    color: hsl(270, 7%, 64%) ;
-    font-weight: 400;
+    color: hsla(268, 7%, 64%, 0.913) ;
+    font-weight: 700;
     margin-bottom: 10rem;
 }
             
   .purple-section{
     height: 90vh;
     width: 30rem;
-    background: rgb(203,71,153);
-    background: linear-gradient(0deg, rgba(203,71,153,1) 0%, rgba(145,32,159,1) 40%);
+    background: rgba(203, 71, 152, 0.711);
+    background: linear-gradient(0deg, rgba(203, 71, 152, 0.744) 0%, rgba(144, 32, 159, 0.778) 40%);
    border-bottom-left-radius: 15rem;
    border-bottom-right-radius:15rem;
    position: fixed;
@@ -53,7 +53,8 @@ body{
     .purple-section-right{
       height: 90vh;
       width: 30rem;
-      background-color: #e9e3dd;
+      background: rgba(203, 71, 152, 0.16);
+    background: linear-gradient(0deg, rgba(203, 71, 152, 0.21) 0%, rgba(182, 61, 168, 0.067) 40%);
      border-top-left-radius: 15rem;
      border-top-right-radius:15rem;
      position: fixed;
@@ -63,16 +64,15 @@ body{
 
 
 .mobile{
-    height: 30rem;
+    height: 30.8rem;
     width: 13.5rem;
     background-color:hsl(270, 20%, 96%);
     margin-top: 5rem;
     border-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
     border: 0.7rem solid #ffffff;
-    border-bottom-width:0.2rem;
-    padding: 0.1rem;
-    word-wrap: normal;
-    box-shadow: 7px 5px 10px 3px rgba(0, 0, 0, 0.2);
+    box-shadow: 10px 12px 12px 3px rgba(0, 0, 0, 0.086);
     z-index: 100;
 }
 
@@ -185,6 +185,7 @@ button{
     background-color:#ede5f3;
     color: blueviolet;
     margin-right: 40%;
+    margin-left: 0.3rem;
     margin-bottom: 0.5rem;
     margin-top: 0.5rem;
   }
@@ -201,6 +202,7 @@ button{
     align-items: center;
     padding: 0.4rem;
     margin-right: 20%;
+    margin-left: 0.3rem;
     background: rgb(244,64,246);
 background: linear-gradient(90deg, rgba(244,64,246,1) 7%, rgba(168,24,199,1) 47%);
     border-radius: 0.5rem;
@@ -242,32 +244,37 @@ background: linear-gradient(90deg, rgba(244,64,246,1) 7%, rgba(168,24,199,1) 47%
   }
 .input-and-sendbtn-div{  
     display: flex;
+    margin-left: 0.4rem;
+    width: 12.2rem;
+    padding: 0.3rem;
     justify-content: space-between;
     background-color: #ffffffff;
     border-radius: 1rem;
    border-top: 0.1rem;
 }
   .button{
-    height: 1.7rem;
-    width: 1.7rem;
+    height: 1.5rem;
+    width: 1.5rem;
     border-radius: 50%;
     background-color: hsl(271, 36%, 24%);
     font-weight: 700;
   }
 
   @media (max-width:900px) {
-    .purple-section,.purple-section-right{
-    width: 30rem;
+    .purple-section{
+    width: 25rem;
 }
-    
+    .purple-section-right{
+        position: none;
+    }
     .middle-section{
         display: flex;
         flex-direction: column;
     }
     .heading-of-para{
         padding: 0;
-        font-weight: 900;
-        font-size: 2.8rem;
+        font-weight: 600;
+        font-size: 2.5rem;
         text-align: center;
        }
     .heading-para-section{
@@ -278,6 +285,7 @@ background: linear-gradient(90deg, rgba(244,64,246,1) 7%, rgba(168,24,199,1) 47%
 
     .paragraph{
         padding:2rem;
+        font-weight: 700;
     }
    
 
@@ -286,16 +294,15 @@ background: linear-gradient(90deg, rgba(244,64,246,1) 7%, rgba(168,24,199,1) 47%
 @media(max-width:460px){
 
    .purple-section-right{
-    display: none;
+    height: 25rem;
+    width: 20rem;
    }
    .purple-section{
     width:25rem;
     height: 25rem;
    }
 
-   body{
-    background-color: #e9e3dd;
-   }
+ 
 
    .mobile{
     margin: 0;
@@ -312,15 +319,24 @@ background: linear-gradient(90deg, rgba(244,64,246,1) 7%, rgba(168,24,199,1) 47%
 @media(max-width:374px){
 
 
-    .paragraph{
-    padding: 2rem;
-    }
-
-    .purple-section{
-        width:20rem;
-       }
+  
 
     .middle-section{
         padding: 0;
+        gap: 5rem;
+    
+    }
+
+    .heading-para-section{
+        width: 30ch;
+        
+    }
+    .heading-of-para{
+        font-weight: 600;
+        font-size: 2.2rem;
+    }
+    .purple-section,.purple-section-right{
+        height: 25rem;
+        width: 20rem;
     }
 }
